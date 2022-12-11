@@ -1,0 +1,35 @@
+p {
+    text-align: center;
+}
+
+.solid {
+    border-style: solid;
+    border-color: blue;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+.dashed {
+    border-style: dashed;
+    border-color: orange;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+.dotted {
+    border-style: dotted;
+    border-color: yellow;
+    border-width:10px;
+    border-radius: 10px;
+}
+
+.groove {
+    border-style: groove;
+    border-color: pink;
+    border-width:10px;
+    border-radius: 10px;
+}
+ los tres valores van en cualquier orden
+.double {
+    border: double blue 10px 
+}
