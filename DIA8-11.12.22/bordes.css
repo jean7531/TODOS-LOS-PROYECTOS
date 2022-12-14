@@ -1,12 +1,33 @@
+
+html {
+    font-size: 10px;
+}
+
+/* */
+/* usare un selector de etiqueta (tag) */
 body {
     margin-left: 80px;
     margin-right: 80px;
+    font-size: 20px;
+    font-size: 1.5em;
+}
+
+h1 {
+    /* font-size: 2em;  2 x 20px (body) = 40px */
+    font-size: 2rem; /* 2 x 10px (html : raiz) = 40px */
 }
 
 p {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
+.small {
+    font-size: 0.6em; /* 0.6 x 20 = 12x */
+}
+
+/* desde aqui quiero usar selectores de clases (class) */
 .solid {
     border-style: solid;
     border-color: blue;
@@ -34,7 +55,17 @@ p {
     border-width:10px;
     border-radius: 10px;
 }
+
 /*los tres valores van en cualquier orden*/
+
 .double {
     border: double blue 10px;
+}
+
+.left_solid {
+    border-left: solid red 5px;
+}
+
+.right-dotted {
+    border-right: dotted pink 5px;
 }
