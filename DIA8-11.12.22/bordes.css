@@ -66,6 +66,15 @@ p {
     border-left: solid red 5px;
 }
 
-.right-dotted {
-    border-right: dotted pink 5px;
+.top-dashed {
+    border-top: dashed 5px gray;
+}
+
+.bottom-double {
+    border-bottom: double 5px red;
+}
+
+.mix-left-top {
+    border-style: solid none none dotted;
+    border-width: 1px 0px 0px 1px;
 }
