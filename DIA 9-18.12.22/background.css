@@ -1,0 +1,30 @@
+
+body {
+    font-family: verdana;
+}
+
+.bg {
+    border: solid;
+    height: 300px;
+}
+
+.color-red {
+    background: red;
+    /*background-color: solid;*/
+}
+
+.color-green {
+    background: green;
+}
+
+.bg-img-montaña {
+    background: url(images/MONTAÑA.webp);
+            /*estamos diciendo que este div tenga
+            un alto de 500px */
+    height: 500px;
+    background-size: cover;
+                /*esto indica que queremos mostrar
+                la parte central de la imagen*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
