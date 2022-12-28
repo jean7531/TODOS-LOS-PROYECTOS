@@ -1,39 +1,82 @@
-.bg-box {
-    height: 500px;
-    width: 500px;
-    background-color: red;
-    position: relative;
-         /*para agregar una position a un element
-         este nos da la opcion de usar lo siguiente
-         top
-         left
-         right
-         botton*/
-         top: 100px;
-         /* left: 100px; */
-         left: 100px;
-}
 
-
-
-
-         /*Esta la opcion de combinar
-          absolute con relative*/
-
-        /*Absolute necesita de un padre que defina su
-        entorno, es decir su ancho y alto */
-
-        /* Por ende relative va a funcionar 
-        como padre de absolute */
-
-
-        .padre {
-            height: 300px;
-            width: 300px;
-            background-color: aqua;
+        .bg-box {
+            height: 500px;
+            width: 500px;
+            background-color: red;
+            position: relative;
+                 /*para agregar una position a un element
+                 este nos da la opcion de usar lo siguiente
+                 top
+                 left
+                 right
+                 botton*/
+                 top: 100px;
+                 /* left: 100px; */
+                 left: 100px;
         }
-        .hijo {
-            height: 100px;
-            width: 100px;
-            background-color: black;
+        
+                 /*Esta la opcion de combinar
+                  absolute con relative*/
+        
+                /*Absolute necesita de un padre que defina su
+                entorno, es decir su ancho y alto */
+        
+                /* Por ende relative va a funcionar 
+                como padre de absolute */
+        
+        
+                .padre {
+                    height: 300px;
+                    width: 300px;
+                    background-color: aqua;
+                    position: relative;
+                    text-align: center;
+                }
+                .hijo {
+                    height: 100px;
+                    width: 100px;
+                    background-color: black;
+                    position: absolute;
+                    /*right: 0;*/
+                    /*bottom: 0;*/
+                    top: calc(50% - 50%);
+                    left: calc(50% - 50%);
+        
+        /* la clase bandera que es el contenedor ocupe 
+        toda la pantalla*/
+        /* vh: viewport height es una unidad de medida,
+        el rango va de 0 al infinito */
+        /* sin embargo 100vh equivale al alto de la pantalla*/
+        /* si ponemos que un div valga 200vh = a que el div ocupe 
+        basicamente el alto de dos pantallas*/
+
+        /**/
+        /*ojo vh = es de forma vertical*/
+    }
+        .bandera {
+            height: 100vh;
+            border: solid;
+            /* vamos a poner un position relative en este div*/
+            position: relative;
+        }
+        .green {
+            height: 100vh;
+            background-color: green;
+            width: 30%;
+            float: left;
+        }
+        .green {
+            height: 100vh;
+            background-color: red;
+            width: 70%;
+            float: right;
+        }
+        .escudo {
+            background: url("./images/escudo-portugal.png");
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            top: calc(50% - 100%);
+            left: calc(40% - 100%);
         }
