@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(175, 112, 112);
+}
+
+#contenedor {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: auto;
+}
+
+.sombra {
+    /**/
+    /* 1er parametro: eje x (default derecha) */
+    /* 2do parametro: eje y (default abajo) */
+    /* 3er parametro: blur (difuminacion)*/
+    /* 4to parametro: spread (propagacion) */
+    box-shadow: 20px 20px 10px -10px yellow;
+}
