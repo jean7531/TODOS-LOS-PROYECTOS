@@ -5,8 +5,11 @@ body {
 #contenedor {
     width: 200px;
     height: 200px;
-    background-color: tomato;
+    background: linear-gradient(red 50%, blue 50%);
     margin: auto;
+    /* red inicie en 0px ira hasta 100px == 100px */
+    /* yellow inicia en 100px ira hasta 180px == 80px */
+    /* blue inicia en 180px ira hasta 200px ==20px */
 }
 
 .sombra {
@@ -15,5 +18,15 @@ body {
     /* 2do parametro: eje y (default abajo) */
     /* 3er parametro: blur (difuminacion)*/
     /* 4to parametro: spread (propagacion) */
+    /* 5to parametro: color */
     box-shadow: 20px 20px 10px -10px yellow;
+
+}
+
+.sombra_texto {
+    /* 1er parametro: eje x (default derecha) */
+    /* 2do parametro: eje y (default abajo) */
+    /* 3er parametro: blur (difuminacion)*/
+    /* 4to parametro: color */
+    text-shadow: 20px 20px 5px yellow;
 }
