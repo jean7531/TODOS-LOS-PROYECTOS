@@ -30,3 +30,10 @@ body {
     /* 4to parametro: color */
     text-shadow: 20px 20px 5px yellow;
 }
+
+#circulo {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 60px auto;
+}
