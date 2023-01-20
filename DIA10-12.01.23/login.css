@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(168, 154, 1654);
+}
+
+#contenedor {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+#campos {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#user {
+    height: 30px;
+    border-color: 1px solid gray;
+    border-radius: 5px;
+}
+
+#pass {
+    height: 30px;
+    border-color: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-control {
+    margin-top: 20px;
+}
