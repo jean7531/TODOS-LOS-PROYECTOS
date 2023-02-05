@@ -20,12 +20,31 @@ body {
     border-radius: 5px;
 }
 
+#user {
+    height: 40px;
+}
 #pass {
     height: 30px;
     border-color: 1px solid gray;
     border-radius: 5px;
 }
 
+#pass:focus {
+    transform: scale(1.5);
+}
+
 .form-control {
     margin-top: 20px;
+    border: 4px dotted blue;
+}
+
+#Submit:hover {
+    height: 30px;
+    width: 90px;
+    background-color: #3b5998;
+    color: white;
+    border: 1px#3b5998 dotted;
+    border-radius: 5px;
+
+    transform: scale(0.5);
 }
