@@ -29,6 +29,11 @@ a cada element que este dentro de este div
 * es igual a todo */
 .contenedor-interno * {
     margin-top: 10px;
+
+
+
+
+    
 }
 
 /*last-child: vamos a obtener el ultimo elemento */
