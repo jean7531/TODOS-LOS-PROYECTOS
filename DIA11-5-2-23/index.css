@@ -27,7 +27,7 @@ body {
 /* Aca estamos diciendo que queremos aplicar el estilo
 a cada element que este dentro de este div
 * es igual a todo */
-.contenedor-interno {
+.contenedor-interno * {
     margin-top: 10px;
 }
 
