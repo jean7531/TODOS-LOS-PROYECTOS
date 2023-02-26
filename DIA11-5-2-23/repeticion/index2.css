@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav {
+    border: solid;
+    height: 50px;
+}
+
+.logo {
+    float: left;
+    height: 70px;
+}
+
+.logo img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border: solid red;
+}
+
+.list-menu {
+    float: right;
+}
+
+.list-menu ul li {
+    display: inline;
+    padding: 20px;
+}
+
