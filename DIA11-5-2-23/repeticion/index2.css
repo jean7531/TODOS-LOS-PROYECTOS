@@ -5,13 +5,13 @@ body {
 }
 
 .nav {
-    border: solid;
-    height: 50px;
+    margin-top: 30px;
+    height: 10vh;
 }
 
 .logo {
     float: left;
-    height: 70px;
+    height: 10vh;
 }
 
 .logo img {
@@ -28,5 +28,44 @@ body {
 .list-menu ul li {
     display: inline;
     padding: 20px;
+    color: hsl(238, 22%, 44%);
+    font-weight: 400;
+}
+
+.container-welcome {
+    height: 90vh;
+    padding: 30px;
+}
+
+.container-welcome-left {
+    float: left;
+}
+.container-welcome-left h1 {
+    width: 60%;
+    font-weight: bold;
+}
+
+.container-welcome-left p {
+    width: 50%;
+}
+
+/* Solo afecta a los inputs de tipo email*/
+input[type="email"] {
+    border: solid 4px;
+}
+
+/* Dentro de container-welcome-left tenemos 3 div */
+/* Sabemos que el primer div es el padre, por ende podremos usar first-child */
+/*.container-welcome-left div:first-child {
+    border: solid red;
+}*/
+
+.container-form {
+    border: solid red;
+    width: 50%;
+}
+
+.container-welcome-right {
+    float: right;
 }
 
